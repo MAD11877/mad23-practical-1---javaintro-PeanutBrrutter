@@ -15,8 +15,8 @@ public class Question5
       index++;
     }
     
-    int maxCount = 0, maxInt = 0, mainIndex = 0;
-    for (mainIndex = 0; mainIndex < count; mainIndex++) {
+    int maxCount = 0, maxInt = 0;
+    for (int mainIndex = 0; mainIndex < count; mainIndex++) {
       int intCount = 0;
       for (int countIndex = 0; countIndex < count; countIndex++) {
         if(intArray[mainIndex] == intArray[countIndex]) intCount++;
