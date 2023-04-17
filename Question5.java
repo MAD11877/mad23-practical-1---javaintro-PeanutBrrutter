@@ -6,11 +6,13 @@ public class Question5
   {
     Scanner myCount = new Scanner(System.in);
     int count = myCount.nextInt();
+    myCount.close();
     int[] intArray = new int[count];
     int index = 0;
     while (index<count) {
       Scanner myInt = new Scanner(System.in);
       int integer = myInt.nextInt();
+      myInt.close();
       intArray[index] = integer;
       index++;
     }
