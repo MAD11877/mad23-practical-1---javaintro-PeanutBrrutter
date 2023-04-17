@@ -6,7 +6,7 @@ public class Question5
   {
     Scanner myCount = new Scanner(System.in);
     int count = myCount.nextInt();
-    int[] intArray = new int[count];
+    int[] intArray = new int[];
     int index = 0;
     while (index<count) {
       Scanner myInt = new Scanner(System.in);
